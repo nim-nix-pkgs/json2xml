@@ -11,7 +11,6 @@
   inputs.src-json2xml-main.ref   = "refs/heads/main";
   inputs.src-json2xml-main.owner = "MhedhebiIssam";
   inputs.src-json2xml-main.repo  = "json2xml";
-  inputs.src-json2xml-main.dir   = "";
   inputs.src-json2xml-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
