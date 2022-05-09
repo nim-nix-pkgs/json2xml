@@ -7,8 +7,37 @@
   "license": "MIT",
   "web": "https://github.com/MhedhebiIssam/json2xml",
   "refs": [
-    "fatal: unable to access 'https://github.com/MhedhebiIssam/json2xml/': Could not resolve host: github.com",
+    "refs/heads/main",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "json2xml",
+      "version": "0.1.0",
+      "author": "Mhedhebi issam",
+      "desc": "convert json to xml  : JsonNode( comapatible with  module json ) To  XmlNode (comapatible with  module  xmltree)",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.10.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.10.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/main"
+    }
+  ]
 }
